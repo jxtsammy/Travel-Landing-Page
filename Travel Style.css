@@ -1,0 +1,141 @@
+ *{
+    margin: 0;
+    padding: 0;
+
+}
+
+.card{
+    height: 100vh;
+    background-image:linear-gradient(rgba(104, 9, 188, 0.55), rgba(7, 1, 14, 0.795)), url(b.png);
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    padding: 5px 120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlogo img{
+    width: 140px;
+    cursor: pointer;
+}
+
+.navlinks{
+    flex: 1;
+}
+
+.navlinks ul{
+    margin-left: 50px;
+    display: inline;
+}
+
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.navlinks ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navlinks ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: rgb(183, 81, 250);
+    display: block;
+    margin: auto;
+    transition: 0.5s ease;
+}
+
+.navlinks ul li:hover:after{
+    width: 100%;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background: rgba(116, 13, 184, 1.5);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 20%;
+    transition: 0.5s ease;
+}
+
+.navbar .btn{
+    float: right;
+}
+
+.bt{
+    margin: 80px 135px;
+    color: white;
+    margin-top: 8%;
+}
+
+.bt h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.bt h1 span{
+    color: rgba(116, 13, 184, 0.811);
+}
+
+.btn:hover{
+    background: rgba(173, 53, 253, 0.811);
+}
+
+.vbar {
+    height: 100%;
+    background: transparent;
+    border: 1px;
+    backdrop-filter: blur(300px);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.searchi{
+    height: 60%;
+    width: 80px;
+}
+
+.searchi i{
+    margin: 25px 23px;
+    display: block;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.socialicons{
+    height: 40%;
+    width: 80px;
+    background: rgba(116, 13, 184, 0.811);
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+    border-top-right-radius: 30px;
+}
+
+.socialicons i{
+    margin: 5px 5px;
+    display: block;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 35px;
+}
+
